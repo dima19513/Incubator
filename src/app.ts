@@ -1,10 +1,11 @@
-import express from 'express'
+/*import express, {Request, Response} from 'express'
 import cors from 'cors'
 import {SETTINGS} from "./settings";
 import {getVideosController} from './videos/getVideosController'
 import {createVideoController} from './videos/createVideoController'
 import {findVideoController} from './videos/findVideoController'
 import {deleteVideoController} from './videos/deleteVideoController'
+import {db} from "./db/db";
 //import {videosRouter} from './index'
 
 export const app = express() // создать приложение
@@ -20,3 +21,4 @@ app.get(SETTINGS.PATH.VIDEOS, createVideoController)
 app.get(SETTINGS.PATH.VIDEOS, findVideoController)
 app.get(SETTINGS.PATH.VIDEOS, deleteVideoController)
 //app.use(SETTINGS.PATH.VIDEOS, videosRouter)
+*/
